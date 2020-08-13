@@ -13,7 +13,7 @@ def find_min_in_nested_arrays(src)
     while inner < src[i][inner].count do 
       
       if src[i][inner] < min
-      min_array << src[i][inner]
+      min_array << min
       end 
     end 
 
