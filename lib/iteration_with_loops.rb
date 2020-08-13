@@ -6,13 +6,13 @@ def find_min_in_nested_arrays(src)
  
  num = src[i][0]
   
-  min = Math.min(src[])
+  
   while i < src.count do
     inner = 0 
-    
+    min = Math.min(src[i][inner])
     while inner < src[i][inner].count do 
       
-      if src[i][inner] < num 
+      if src[i][inner] < min
       min_array << src[i][inner]
       end 
     end 
